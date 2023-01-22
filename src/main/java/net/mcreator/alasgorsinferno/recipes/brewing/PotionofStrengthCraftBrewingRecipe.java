@@ -32,7 +32,7 @@ public class PotionofStrengthCraftBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return ingredient.getItem() == AlasgorsInfernoModItems.DIAMOND_DUST.get();
+		return ingredient.getItem() == AlasgorsInfernoModItems.BLUE_NETHER_WART.get();
 	}
 
 	@Override

@@ -17,7 +17,7 @@ import net.mcreator.alasgorsinferno.AlasgorsInfernoMod;
 public class AlasgorsInfernoModPotions {
 	public static final DeferredRegister<Potion> REGISTRY = DeferredRegister.create(ForgeRegistries.POTIONS, AlasgorsInfernoMod.MODID);
 	public static final RegistryObject<Potion> POTIONOF_STRENGTH = REGISTRY.register("potionof_strength",
-			() -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 0, false, true)));
+			() -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 2, false, true)));
 	public static final RegistryObject<Potion> POTIONOF_STRENGTH_2 = REGISTRY.register("potionof_strength_2",
 			() -> new Potion(new MobEffectInstance(MobEffects.DAMAGE_BOOST, 3600, 3, false, true)));
 	public static final RegistryObject<Potion> POTIONOF_STRENGTH_3 = REGISTRY.register("potionof_strength_3",

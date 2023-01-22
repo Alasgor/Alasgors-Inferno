@@ -13,7 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 
 import net.mcreator.alasgorsinferno.init.AlasgorsInfernoModPotions;
-import net.mcreator.alasgorsinferno.init.AlasgorsInfernoModItems;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class PotionofStrength3CraftBrewingRecipe implements IBrewingRecipe {
@@ -31,7 +30,7 @@ public class PotionofStrength3CraftBrewingRecipe implements IBrewingRecipe {
 
 	@Override
 	public boolean isIngredient(ItemStack ingredient) {
-		return ingredient.getItem() == AlasgorsInfernoModItems.EMPOWERED_DIAMOND_DUST.get();
+		return ingredient.getItem() == Items.NETHER_STAR;
 	}
 
 	@Override

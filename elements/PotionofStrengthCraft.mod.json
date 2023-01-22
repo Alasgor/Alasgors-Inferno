@@ -12,7 +12,7 @@
       "value": "POTION:STRONG_STRENGTH"
     },
     "brewingIngredientStack": {
-      "value": "CUSTOM:DiamondDust"
+      "value": "CUSTOM:BlueNetherWart"
     },
     "brewingReturnStack": {
       "value": "POTION:CUSTOM:PotionofStrength"

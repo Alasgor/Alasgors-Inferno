@@ -12,7 +12,7 @@
       "value": "POTION:CUSTOM:PotionofStrength2"
     },
     "brewingIngredientStack": {
-      "value": "CUSTOM:EmpoweredDiamondDust"
+      "value": "Items.NETHER_STAR"
     },
     "brewingReturnStack": {
       "value": "POTION:CUSTOM:PotionofStrength3"

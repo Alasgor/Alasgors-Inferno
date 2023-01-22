@@ -28,6 +28,14 @@
       "path": "~/Potion System"
     },
     {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust"
+    },
+    {
       "name": "EmpoweredGlowstoneDust",
       "type": "item",
       "sortid": 5,
@@ -36,12 +44,36 @@
       "registry_name": "empowered_glowstone_dust"
     },
     {
+      "name": "EmpoweredDiamondDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_diamond_dust"
+    },
+    {
+      "name": "DiamondDustCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust_craft"
+    },
+    {
       "name": "EmpoweredGlowstoneDustCraft",
       "type": "recipe",
       "sortid": 8,
       "compiles": true,
       "locked_code": false,
       "registry_name": "empowered_glowstone_dust_craft"
+    },
+    {
+      "name": "EmpoweredDiamondDustCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_diamond_dust_craft"
     },
     {
       "name": "PotionofStrengthCraft",
@@ -69,22 +101,6 @@
       "locked_code": false,
       "registry_name": "potionof_strength_3_craft",
       "path": "~/Potion System"
-    },
-    {
-      "name": "BlueNetherWart",
-      "type": "item",
-      "sortid": 12,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_nether_wart"
-    },
-    {
-      "name": "BlueNetherWartDrop",
-      "type": "loottable",
-      "sortid": 13,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "blue_nether_wart_drop"
     }
   ],
   "variable_elements": [],
@@ -92,13 +108,14 @@
   "language_map": {
     "en_us": {
       "item.minecraft.lingering_potion.effect.potionof_strength": "Lingering Potion of Strength",
+      "item.alasgors_inferno.diamond_dust": "Diamond Dust",
       "item.minecraft.potion.effect.potionof_strength_3": "Potion of Strength",
       "item.minecraft.tipped_arrow.effect.potionof_strength": "Arrow of Strength",
       "item.minecraft.splash_potion.effect.potionof_strength_2": "Splash Potion of Strength",
       "item.minecraft.splash_potion.effect.potionof_strength_3": "Splash Potion of Strength",
       "item.minecraft.potion.effect.potionof_strength_2": "Potion of Strength",
       "item.minecraft.splash_potion.effect.potionof_strength": "Splash Potion of Strength",
-      "item.alasgors_inferno.blue_nether_wart": "Warped Nether Wart",
+      "item.alasgors_inferno.empowered_diamond_dust": "Empowered Diamond Dust",
       "item.alasgors_inferno.empowered_glowstone_dust": "Empowered Glowstone Dust",
       "item.minecraft.potion.effect.potionof_strength": "Potion of Strength",
       "item.minecraft.lingering_potion.effect.potionof_strength_3": "Lingering Potion of Strength",

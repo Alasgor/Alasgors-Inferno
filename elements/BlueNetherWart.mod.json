@@ -3,10 +3,10 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "empowered_diamond_dust",
+    "texture": "blue_nether_wart",
     "customModelName": "Normal",
-    "name": "Empowered Diamond Dust",
-    "rarity": "RARE",
+    "name": "Warped Nether Wart",
+    "rarity": "UNCOMMON",
     "creativeTab": {
       "value": "MISC"
     },
