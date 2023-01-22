@@ -29,6 +29,9 @@ import net.minecraftforge.common.MinecraftForge;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.alasgorsinferno.init.AlasgorsInfernoModPotions;
+import net.mcreator.alasgorsinferno.init.AlasgorsInfernoModItems;
+
 import java.util.function.Supplier;
 import java.util.function.Function;
 import java.util.function.BiConsumer;
@@ -45,6 +48,10 @@ public class AlasgorsInfernoMod {
 		MinecraftForge.EVENT_BUS.register(this);
 
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
+
+		AlasgorsInfernoModItems.REGISTRY.register(bus);
+
+		AlasgorsInfernoModPotions.REGISTRY.register(bus);
 
 	}
 

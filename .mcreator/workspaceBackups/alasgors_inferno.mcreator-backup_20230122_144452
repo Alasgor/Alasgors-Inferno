@@ -1,0 +1,127 @@
+{
+  "mod_elements": [
+    {
+      "name": "PotionofStrength",
+      "type": "potion",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionof_strength",
+      "path": "~/Potion System"
+    },
+    {
+      "name": "PotionofStrength2",
+      "type": "potion",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionof_strength_2",
+      "path": "~/Potion System"
+    },
+    {
+      "name": "PotionofStrength3",
+      "type": "potion",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potionof_strength_3",
+      "path": "~/Potion System"
+    },
+    {
+      "name": "DiamondDust",
+      "type": "item",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust"
+    },
+    {
+      "name": "EmpoweredGlowstoneDust",
+      "type": "item",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_glowstone_dust"
+    },
+    {
+      "name": "EmpoweredDiamondDust",
+      "type": "item",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_diamond_dust"
+    },
+    {
+      "name": "DiamondDustCraft",
+      "type": "recipe",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_dust_craft"
+    },
+    {
+      "name": "EmpoweredGlowstoneDustCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_glowstone_dust_craft"
+    },
+    {
+      "name": "EmpoweredDiamondDustCraft",
+      "type": "recipe",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "empowered_diamond_dust_craft"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.minecraft.lingering_potion.effect.potionof_strength": "Lingering Potion of Strength",
+      "item.alasgors_inferno.diamond_dust": "Diamond Dust",
+      "item.minecraft.potion.effect.potionof_strength_3": "Potion of Strength",
+      "item.minecraft.tipped_arrow.effect.potionof_strength": "Arrow of Strength",
+      "item.minecraft.splash_potion.effect.potionof_strength_2": "Splash Potion of Strength",
+      "item.minecraft.splash_potion.effect.potionof_strength_3": "Splash Potion of Strength",
+      "item.minecraft.potion.effect.potionof_strength_2": "Potion of Strength",
+      "item.minecraft.splash_potion.effect.potionof_strength": "Splash Potion of Strength",
+      "item.alasgors_inferno.empowered_diamond_dust": "Empowered Diamond Dust",
+      "item.alasgors_inferno.empowered_glowstone_dust": "Empowered Glowstone Dust",
+      "item.minecraft.potion.effect.potionof_strength": "Potion of Strength",
+      "item.minecraft.lingering_potion.effect.potionof_strength_3": "Lingering Potion of Strength",
+      "item.minecraft.tipped_arrow.effect.potionof_strength_3": "Arrow of Strength",
+      "item.minecraft.tipped_arrow.effect.potionof_strength_2": "Arrow of Strength",
+      "item.minecraft.lingering_potion.effect.potionof_strength_2": "Lingering Potion of Strength"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Potion System",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "alasgors_inferno",
+    "modName": "Alasgor\u0027s Inferno",
+    "version": "1.0.0",
+    "author": "unidm, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.19.2",
+    "modElementsPackage": "net.mcreator.alasgorsinferno",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200348217
+}

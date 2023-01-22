@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "alasgors_inferno:items/empowered_glowstone_dust"
+  }
+}

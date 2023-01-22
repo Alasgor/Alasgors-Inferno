@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "minecraft:obsidian"
+  },
+  "addition": {
+    "item": "minecraft:diamond"
+  },
+  "result": {
+    "item": "alasgors_inferno:diamond_dust"
+  }
+}
